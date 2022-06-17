@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+
+body {
+  background: black;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.clock {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #477ae8;
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 7px;
+}
