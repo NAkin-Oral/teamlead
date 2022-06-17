@@ -1,8 +1,8 @@
 function showTime() {
   let date = new Date();
-  let h = date.getHours();
-  let m = date.getMinutes();
-  let s = date.getSeconds();
+  let h = date.getHours(); // 0-23 arası
+  let m = date.getMinutes(); // 0-59 arası
+  let s = date.getSeconds(); // 0-59 arası
   let session = 'AM';
   if (h == 0) {
     h = 12;
